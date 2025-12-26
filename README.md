@@ -1,16 +1,25 @@
-# factory_monitor
+# Factory Monitor (Flutter)
 
-A new Flutter project.
+Offline-first factory monitoring mobile app built with Flutter.
 
-## Getting Started
+## Roles
+- Operator: Start/End downtime (works offline)
+- Supervisor: View alerts and reports
 
-This project is a starting point for a Flutter application.
+## Features
+- Offline-first design (SQLite)
+- Sync-later simulation
+- Role-based UI
+- Supervisor alerts (mocked)
+- Minimal reports (Idle / Active time)
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
+- Flutter
+- Provider
+- SQLite (sqflite)
+- Connectivity Plus
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to Run
+```bash
+flutter pub get
+flutter run
