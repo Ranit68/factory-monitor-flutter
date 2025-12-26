@@ -19,6 +19,9 @@ Offline-first factory monitoring mobile app built with Flutter.
 - SQLite (sqflite)
 - Connectivity Plus
 
+## APK
+- https://drive.google.com/file/d/1UrK2kUUeUw6YOmt9UwFvF8d5s9n-3Uay/view?usp=drivesdk
+
 ## How to Run
 ```bash
 flutter pub get
